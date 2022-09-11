@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<PackageId>Lusplitaim.Wooordhunt.Dictionary</PackageId>
+	<Version>1.0.0</Version>
+	<Authors>Lusplitaim</Authors>
+    <Summary>Provides a custom API for fetching data from Wooordhunt dictionary.</Summary>
+    <Description>Provides a custom API for fetching data from Wooordhunt dictionary.</Description>
+    <PackageTags>Wooordhunt;Dictionary</PackageTags>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Lusplitaim.Wooordhunt.Dictionary</AssemblyName>
+	<IsPackable>true</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AngleSharp" Version="0.17.1" />
+    <PackageReference Include="Microsoft.Playwright" Version="1.24.1" />
+  </ItemGroup>
+
+</Project>
